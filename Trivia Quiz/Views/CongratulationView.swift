@@ -39,14 +39,6 @@ struct CongratulationView: View {
                     PrimaryButton(text: "Play Again")
                 }
               
-                
-                NavigationLink  {
-                    ContentView()
-                } label: {
-                    //Button
-                    PrimaryButton(text: "🏡")
-                    
-                }
             }
             
                 .foregroundColor(Color.red)
